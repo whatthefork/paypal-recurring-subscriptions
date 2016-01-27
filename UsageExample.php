@@ -1,4 +1,20 @@
 <?php
+/* 
+https://developer.paypal.com/docs/classic/paypal-payments-pro/integration-guide/WPRecurringPayments/
+
+https://developer.paypal.com/docs/classic/express-checkout/integration-guide/ECRecurringPayments/#id086520F027U
+
+https://docs.woothemes.com/document/subscriptions/develop/payment-gateway-integration/
+https://docs.woothemes.com/document/subscriptions/payment-gateways/
+
+
+http://stackoverflow.com/questions/18823527/send-paypal-recurring-payments-commands-with-ipn-simulator
+
+Other code: 
+https://github.com/hrendoh/PayPal-Recurring-Payment-example
+
+*/
+
 require_once 'PaypalRecurring.php';
 
 $pp = new PayPalRecurring();
